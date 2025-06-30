@@ -8,10 +8,9 @@ const EmptyState = () => {
       </div>
       <h2 style={titleStyles}>Nothing added here yet</h2>
       <p style={descriptionStyles}>
-        Start by clicking the <span style={plusStyles}>+</span>{' '}
-        <strong>Add</strong> button to create your first item.
+        Click on the <span style={plusStyles}>+</span> <strong>Add</strong>{' '}
+        button to add items to this course.
       </p>
-      <button style={buttonStyles}>Add Item</button>
     </div>
   );
 };
@@ -59,18 +58,6 @@ const plusStyles = {
   color: '#1976d2',
   fontWeight: 'bold',
   fontSize: '18px',
-};
-
-const buttonStyles = {
-  padding: '10px 28px',
-  backgroundColor: 'grey',
-  color: '#fff',
-  border: 'none',
-  borderRadius: '6px',
-  fontSize: '15px',
-  fontWeight: '600',
-  cursor: 'pointer',
-  marginTop: '8px',
 };
 
 export default EmptyState;
