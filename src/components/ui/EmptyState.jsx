@@ -6,7 +6,7 @@ const EmptyState = () => {
       <div style={imageWrapperStyles}>
         <img src={emptyImage} alt="Empty illustration" style={imageStyles} />
       </div>
-      <h2 style={titleStyles}>No Items Yet</h2>
+      <h2 style={titleStyles}>Nothing added here yet</h2>
       <p style={descriptionStyles}>
         Start by clicking the <span style={plusStyles}>+</span>{' '}
         <strong>Add</strong> button to create your first item.
